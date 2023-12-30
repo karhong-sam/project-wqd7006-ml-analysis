@@ -128,8 +128,11 @@ user_input = {}
 
 # Add features to user input
 for feature in features:
-    if feature == 'year' or feature == 'country':
-        user_input[feature] = st.sidebar.text_input(f'Enter {feature}:')
+    if feature == 'year':
+        user_input[feature] = st.sidebar.selectbox(f'Select {feature}:', df['year'].unique())
+    elif feature == 'country':
+        # Use st.selectbox for the 'country' feature
+        user_input[feature] = st.sidebar.selectbox(f'Select {feature}:', df['country'].unique())
     else:
         user_input[feature] = st.sidebar.number_input(f'Enter {feature}:', value=0.0)
 

@@ -22,7 +22,7 @@ git clone https://github.com/karhong-sam/project-wqd7006-ml-analysis.git
 ```
 2. Activate your venv (Windows)
 ```
-python -m venv venv & venv\Scripts\activate
+python -m venv wqd7006 & wqd7006\Scripts\activate
 ```
 3. Install the python dependencies for this project
 ```
@@ -41,7 +41,7 @@ streamlit run app.py
 
 ## Accessing the deployment here
 
-TBD
+[Energy Access Classification App](https://project-wqd7006-global-sustainable-energy-ml-analysis.streamlit.app/)
 
 ## Demo
 Check out the **ML Prediction** on Streamlit
@@ -51,9 +51,9 @@ TBD
 ## Team
 - Xing Zhao Chua [wendycxz](https://github.com/wendycxz)
 - Kar Hong Sam [karhong-sam](https://github.com/karhong-sam)
-- TBD
-- TBD
-- TBD
+- Mei Zhu
+- Xin Dong
+- Qixiang Yin
 
 ## Disclaimer
 TBD
